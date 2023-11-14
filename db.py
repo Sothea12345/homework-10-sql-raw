@@ -19,9 +19,9 @@ Query all employee records from the employee table
 And query employee with condition, emp_num > 101
 '''
 
-# cursor.execute("SELECT * FROM employee")
-# employees = cursor.fetchall()
-
+cursor.execute("SELECT * FROM employee")
+employees = cursor.fetchall()
+print(employees)
 # for employee in employees:
 #     print(employee[0], employee[1], employee[2], employee[3], employee[4].strftime('%d-%B-%Y'))
 
